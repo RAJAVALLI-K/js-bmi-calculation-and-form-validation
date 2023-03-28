@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI calculation and form validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content-div">
+            <form>
+                <h1>BMI Calculation</h1>
+                <div>
+                    <div>
+                        <label for="height-bmi">Height:</label>
+                    </div>
+                    <div class="contain">
+                        <input type="text" class="height" id="height" name="height-bmi" placeholder="Enter a height">
+                        <span class="valid"></span>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <label for="weight-bmi">Weight:</label>    
+                    </div>
+                    <div class="contain">
+                        <input type="text" class="weight" id="weight" name="weight-bmi" placeholder="Enter a weight">
+                        <span class="valid1"></span>
+                    </div>
+                </div>
+                <div class="btn">
+                    <button class="submit">Submit</button>
+                </div>
+                <div id="result">
+                    
+                </div>
+                <div class="res-para">
+            
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
