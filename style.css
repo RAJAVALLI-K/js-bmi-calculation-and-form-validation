@@ -32,11 +32,7 @@ form div {
     gap: 3px;
 }
 
-form {
-    padding: 0px 20px;
-}
-
-label {
+.form-cal div {
     width: 50%;
 }
 
@@ -44,6 +40,7 @@ input {
     width: 100%;
     padding: 10px;
     border: 2px solid #ccc;
+    border-radius: 5px;
 }
 
 input:focus {
@@ -75,4 +72,45 @@ h1 {
 
 .res-para {
     color: #056fb6;
+}
+
+@media only screen and (min-width:200px) {
+    .content-div {
+        width: 75%;
+        padding: 10px;
+    }
+
+    form {
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width:320px) {
+    .content-div {
+        width: 75%;
+    }
+
+    form {
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .content-div {
+        width: 60%;
+    }
+
+    form {
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .content-div {
+        width: 30%;
+    }
+
+    form {
+        padding: 20px;
+    }
 }
